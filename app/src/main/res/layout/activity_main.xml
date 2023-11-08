@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F4F4">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What would you like to test?"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:textSize="28sp"
+        android:textColor="#333333"
+        />
+
+    <Button
+        android:id="@+id/bluetooth"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Bluetooth"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#007ACC"
+        />
+
+    <Button
+        android:id="@+id/microphone"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Microphone"
+        android:layout_below="@id/bluetooth"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#4CAF50"
+        />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Camera"
+        android:layout_below="@id/microphone"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#E91E63"
+        />
+
+    <Button
+        android:id="@+id/rooted"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Rooted"
+        android:layout_below="@id/camera"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#F44336"
+        />
+
+    <Button
+        android:id="@+id/sensors"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Sensors"
+        android:layout_below="@id/rooted"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:background="#FF9800"
+        />
+</RelativeLayout>
